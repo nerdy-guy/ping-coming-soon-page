@@ -7,6 +7,9 @@ const validateInput = () => {
 
   if (pattern.test(email.value)) {
     location.reload();
+  } else if (email.value === "") {
+    validation.textContent =
+      "Whoops! It looks like you forgot to add your email";
   } else {
     validation.textContent = "Please provide a valid email address";
     email.style.borderColor = "var(--clr-light-red)";
