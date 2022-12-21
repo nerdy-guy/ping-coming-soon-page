@@ -141,6 +141,10 @@ body {
   font-size: 1rem;
 }
 
+.email:focus {
+  outline: none;
+}
+
 ::placeholder {
   color: var(--clr-gray);
   opacity: 0.5;
