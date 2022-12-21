@@ -179,12 +179,12 @@ body {
   border-radius: 2em;
   padding: 0.8em 8.3em;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: 0.5s;
 }
 
 .button:hover {
   cursor: pointer;
   opacity: 0.8;
-  transition: 0.5s;
 }
 
 button:focus {
@@ -213,13 +213,13 @@ button:focus {
   border: 1px solid var(--clr-pale-blue);
   border-radius: 50%;
   fill: var(--clr-blue);
+  transition: 0.5s;
 }
 
 .link:hover {
   background-color: var(--clr-blue);
   fill: var(--clr-white);
   cursor: pointer;
-  transition: 0.5s;
 }
 
 .copyright {
