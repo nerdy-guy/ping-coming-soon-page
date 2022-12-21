@@ -26,12 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./validInput.png)
+![](./invalidInput.png)
 
 ### Links
 
-- [Solution](repo link)
-- [Live Site](github live page)
+- [Solution](https://github.com/nerdy-guy/ping-coming-soon-page)
+- [Live Site](https://nerdy-guy.github.io/ping-coming-soon-page/)
 
 ## Built with
 
@@ -46,9 +47,11 @@ Users should be able to:
 
 ```
 ping-coming-soon-page
+├── app.js
 ├── images
 │   ├── favicon-32x32.png
-│   └── image-qr-code.png
+│   ├── illustration-dashboard.png
+│   └── logo.svg
 ├── index.html
 ├── README.md
 ├── screenshot.png
