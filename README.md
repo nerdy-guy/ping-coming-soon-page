@@ -53,7 +53,8 @@ ping-coming-soon-page
 │   ├── illustration-dashboard.png
 │   └── logo.svg
 ├── index.html
+├── invalidInput.png
 ├── README.md
-├── screenshot.png
-└── style.css
+├── style.css
+└── validInput.png
 ```
